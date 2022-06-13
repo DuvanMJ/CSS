@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+div{
+    
+    border: 2px solid;
+    text-align: center;
+    max-width: 60%;
+    height: 80px;
+    margin: auto;
+}
+.static{
+    position: static;
+}
+/*Ubicar elemento en cualquier ubicación en la pantalla
+Dependiendo de los elementos que estén ya ubicados*/
+.relative{
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+/*posicionamiento depende de toda la pantalla (document body)
+y se queda FIJO*/
+.fixed{
+    max-width: 20%;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+}
+/*Depende del elemento de quien lo contenga */
+/*No funciona en elementos padres static*/
+.absolute{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 5px;
+    left: 5px;
+}
+.alto{
+    position: relative;
+    height: 800px;
+    margin-bottom: 10px;
+   
+}
+/*Une la función de relative y fixed*/
+.sticky{
+    position: sticky;
+    margin-left: 500px;
+    top: 0px;
+    background-color: aquamarine;
+}

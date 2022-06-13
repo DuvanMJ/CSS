@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+div.contenedor{
+    margin: auto;
+    padding: 10px;
+    width: 30%;
+    border: 1px solid;
+}
+div.contenedor:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+div.contenedor.oculto p{
+    display: none;
+}
+div.contenedor.oculto:hover p{
+    display: block;
+}
+div.contenedor.primero p:first-child{
+    font-variant: small-caps;
+}

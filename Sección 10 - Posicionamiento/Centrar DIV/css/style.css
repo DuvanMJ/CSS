@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+div{
+    max-width: 50%;
+    border: 2px solid;
+    margin: auto;
+    text-align: center;
+}
+p{
+    padding: 10px;
+}

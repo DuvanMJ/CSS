@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+div.contenedor{
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid;
+}
+/*Selector descendiente*/
+div.contenedor.descensdiente p{
+    background-color: blueviolet ;
+}
+/*Selector child o hijo*/
+div.contenedor.hijo > p{
+    background-color: #ff66ff;
+}
+/*Selector adyacente*/
+div.contenedor.adyacente + p{
+    background-color: aqua;
+}
+/*Selector hermano, se aplica a 
+los elementos posteriores a este elemento*/
+div.contenedor.hermano ~ p{
+    background-color: blue;
+}

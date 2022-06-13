@@ -1,0 +1,8 @@
+h1, h2, p, div {
+    color: brown;
+    text-align: center;
+}
+
+p.grande{
+    font-size: 40px;
+}

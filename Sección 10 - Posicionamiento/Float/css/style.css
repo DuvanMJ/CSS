@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+div.contenedor {
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+    border: 1px solid;
+    
+}
+div.contenedor.flotadoiz{
+    float: left;
+}
+div.contenedor.flotadoder{
+    float: right;
+}
+div.centrado{
+    clear: both;
+    border: 1px solid;
+    height: 200px;
+    overflow: auto;
+    width: 220px;
+    margin: auto;
+}

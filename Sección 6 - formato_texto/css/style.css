@@ -1,0 +1,26 @@
+h1{
+    color: rgb(243, 245, 224);
+    background-color: rgb(198, 208, 212);
+    text-align: center;
+    text-transform: uppercase;/*Todo mayúscula*/
+    text-shadow: 2px 2px 2px rgb(75, 62, 62);/*sombra*/
+    letter-spacing: 15px;/*Espacio entre cada letra*/
+    word-spacing: 20px /*Espacio entre palabras*/;
+
+}
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    background-color: rgb(92, 156, 165);
+    color: white;
+    border-radius: 50px 0px 50px 0px;
+}
+.texto{
+    text-align: justify;
+    /*direction: rtl; dirección derecha a izquierda*/
+    /*text-decoration:underline; Línea debado del texto*/
+    text-indent: 50px;
+    line-height: 2; /*Espacio entre línea*/
+
+}

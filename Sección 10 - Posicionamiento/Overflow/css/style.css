@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+.contenedor{
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+    margin: auto;
+    /*overflow: visible; POR DEFECTO*/ 
+    /*overflow: hidden;OCULTARO TODO POR FUERA DEL DIV*/
+    /*overflow: scroll; MUESTRA BARRA SCROLL*/
+    /* AUTO: SOLO MUESTRA BARRAS QUE SE NECESITEN */
+    overflow: auto;
+    /*OVERFLOW HORIZONTARL Y VERTICAL*/
+    overflow-y: auto;
+    overflow-x: auto;
+}

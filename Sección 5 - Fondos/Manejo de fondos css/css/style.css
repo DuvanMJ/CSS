@@ -1,0 +1,11 @@
+body{
+    background-color: blueviolet;
+    background-image: url("/Sección\ 5\ -\ Fondos/Manejo\ de\ fondos\ css/img/fondo.png");
+    background-attachment: fixed; /*El fondo permanece quieto mientras se desplaza por la pag*/
+    /*background-attachment: scroll; El fondo se mueve con el texto mientras se desplaza por la pag*/
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    height: 3000px;
+}

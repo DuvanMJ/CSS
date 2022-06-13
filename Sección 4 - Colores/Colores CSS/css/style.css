@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+
+.caja{
+    padding: 10px;
+    color: aliceblue;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 20px;
+    float: left;
+
+}
+
+.rojo{
+    background-color: brown;
+}
+
+.rosa{
+    background-color: rosybrown;
+}
+.rgb{
+    background-color: rgb( 17, 122, 101 );
+}
+.rgba{
+    background-color: rgba( 17, 122, 101, 0.5 );
+}
+.hexa{
+    background-color:  #ffb300;
+}
+.hexa-a{
+    background-color:  #ffb30080;
+}
+.hsl{
+    background-color: hsl(255, 61%, 39%);
+}
+.hsla{
+    background-color: hsla(255, 61%, 39%, 0.5);
+}

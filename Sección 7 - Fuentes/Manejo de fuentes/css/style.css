@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h1{
+    text-align: center;
+    font-family: Roboto ;
+    font-variant: small-caps;
+}
+.caja{
+    border: 1px solid;
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.caja.serif
+{
+    background-color: aquamarine;
+}
+.caja.sans_serif{
+    background-color: rgb(73, 157, 163);
+}
+.caja.monospace{
+    background-color: rgb(91, 133, 74);
+}
+.caja.cursive{
+    background-color: rgb(168, 189, 52);
+}
+.fuente_times{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: small;
+}
+.fuente_georgia{
+    /*font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: larger;*/
+    /*font: font-style font-variant font-weight *font-size/line-heigth *font-family*/
+    font: italic small-caps bolder 20px Georgia, serif;
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: x-small;
+}
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-size: 1em;/*1em = 16px*/
+}
+.fuente_courier{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;/*view width 1vw = 1%  si la pantalla es más pequeña la letra se hace más pequeña*/
+}
+.fuente_lucida{
+    font-family: cursive;
+}

@@ -1,0 +1,55 @@
+h1, div, p{
+    text-align: center;
+    border: 2px solid;
+    padding: 10px;
+    display: block;
+}
+/*Ocultar pero no ocupa espacio*/
+h1{
+    display: none;
+}
+/*Ocultar pero si ocupa espacio hidden*/
+p{
+    visibility: visible;
+}
+/*Enlaces*/
+a{
+    display: block;
+    text-align: left;
+}
+li{
+    display: inline;
+}
+h2 {
+    text-align: center;
+}
+.contenedor {
+    border: 1 px solid blue;
+    border-style: dashed;
+    width: 500px;
+    margin: auto;
+    border-color: aquamarine;
+}
+span.inlineb {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: aquamarine;
+    border: 1px solid;
+    height: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}

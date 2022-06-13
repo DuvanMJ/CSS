@@ -1,0 +1,19 @@
+/*Selector universal*/
+*{
+    background-color: aliceblue;
+}
+
+/*Selector id*/
+#titulo{
+    color: brown;
+    text-align: center;
+}
+
+/*Selectro clase*/
+.centrar{
+    text-align: center;
+}
+
+.texto_grande{
+    font-size: 30px;
+}

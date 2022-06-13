@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+div.contenedor{
+    width: 30%;
+    margin: auto;
+    border: 1px solid;
+    text-align: center;
+}
+div.contenedor p::selection{
+    background-color: rgb(99, 226, 14);
+    color: rgb(255, 255, 255);
+}
+div.contenedor p::first-line{
+    font-variant: small-caps;
+}
+div.contenedor p::before{
+    content: "--";
+}
+div.contenedor p::after{
+    content: "***";
+}
+div.imag{
+    margin: auto;
+    border: 4px solid;
+    width: 60%;
+    
+}
+img{
+    width: 100%;
+    opacity: 0.4;
+}
+img:hover{
+    opacity: 1;
+}

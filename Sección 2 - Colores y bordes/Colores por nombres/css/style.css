@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+h2.rojo{
+    border: 10px solid black ;
+    padding: 0px;
+    background-color: firebrick; 
+   
+}
+h2.rosa{
+    border: 10px dashed black ;
+    background-color: rosybrown;
+}
+h2.amarillo{
+    border: 10px double black ;
+    background-color: goldenrod;
+}
+.rojo, .rosa{
+    color: antiquewhite;
+}

@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    border: 1px solid;
+}
+
+/*Tamaños fijos con outline */
+.fijo{
+    padding: 0px;
+    border: 1px solid black;
+    margin: 0px ;
+    width: 200px;
+    outline: 0px solid blue;
+   
+}
+/*Tamaño fijo con box sizing*/
+.fijo2{
+    padding: 20px;
+    border: 20px solid rgb(114, 23, 23);
+    margin: 0 auto;
+    width: 200px;
+    outline: 0px solid blue;
+    /*outline-offset: 10px;*/
+    box-sizing:border-box;
+}
+
+/*Tamaños máximos*/
+.maxim{
+    padding: 10px;
+    border: 28px solid rgb(95, 83, 83);
+    margin: 50px ;
+   
+    outline: 0px solid blue;
+    outline-offset: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+/*Centrar box*/
+.centrar{
+    padding: 10px;
+    border: 28px solid rgb(54, 27, 97);
+    margin: 60px ;
+    outline: 50px solid rgb(75, 46, 78);
+    width: 200px;
+    margin: 100px auto;
+}
+
+.padre{
+    padding: 0px;
+    border: 1px solid rgb(36, 152, 187);
+    margin-left: 200px ;
+    /*outline: 60px solid rgb(42, 170, 30);*/
+    width: 1200px;
+   
+}
+/*Hereda el margen del div padre*/
+.padre p.here{
+    margin-left: inherit;
+}
