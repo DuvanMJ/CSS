@@ -1,0 +1,28 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+    background: linear-gradient(rgb(87, 3, 3),rgb(243, 157, 171)
+    )
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+div.derecha{
+    text-align: center;
+    width: 60%;
+    color: azure;
+    height: 200px;
+    /* Fondo gradiente hacia la derecha */
+    background: linear-gradient(to right, rgb(38, 38, 58),blue, rgb(18, 230, 245));
+    /* Fondo gradiente hacía la derecha abajo */
+    background: linear-gradient(to right bottom, rgb(38, 38, 58),blue, rgb(18, 230, 245));
+    /* Fondo gradiente con grados */
+    background: linear-gradient(45deg, rgb(38, 38, 58),blue, rgb(18, 230, 245));
+    /*Gradiente circular*/
+    background: radial-gradient(circle, rgb(38, 38, 58),blue, rgb(195, 195, 248));
+
+
+}

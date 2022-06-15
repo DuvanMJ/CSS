@@ -1,0 +1,11 @@
+h1{
+    /*eje horizontal, ejer vertical, difuminar*/
+    text-shadow: 2px 4px 3px gray;
+}
+div{
+    width: 40%;
+    height: 200px;
+    border: 2px solid;
+    box-shadow: 16px 5px 14px 15px gray;
+    border-radius: 15px;
+}

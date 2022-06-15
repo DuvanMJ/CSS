@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+div.contenedor{
+    display: flex;
+    height: 600px;
+    background-color: rgb(218, 248, 238);
+    /*Acomodarlos en columna*/
+    flex-direction: column;
+    /*Acomodarlos en fila*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*dos propiedades en una sola línea*/
+    flex-flow: row wrap;
+    justify-content: center;
+    /*Alinear en forma horizontal*/
+    align-items: flex-start;
+    /*Alinear en forma vertical*/
+    align-content: center;
+}
+div.contenedor > p{
+    background-color: rgb(28, 122, 151);
+    color: rgb(248, 247, 246);
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    
+    
+}
